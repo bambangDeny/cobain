@@ -6,7 +6,7 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/kumparan/fer/installer"
+	"github.com/bambangDeny/cobain/installer"
 )
 
 // InitChangelog :nodoc:

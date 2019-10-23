@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.com/kumparan/fer/util"
+	"github.com/bambangDeny/cobain/util"
 
 	"os"
 	"os/exec"

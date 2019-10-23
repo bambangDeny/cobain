@@ -8,7 +8,7 @@ import (
 	"os/exec"
 	"runtime"
 
-	"github.com/kumparan/fer/config"
+	"github.com/bambangDeny/cobain/config"
 )
 
 var (

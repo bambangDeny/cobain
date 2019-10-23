@@ -3,7 +3,7 @@ package console
 import (
 	"fmt"
 
-	"github.com/kumparan/fer/config"
+	"github.com/bambangDeny/cobain/config"
 
 	"github.com/spf13/cobra"
 )

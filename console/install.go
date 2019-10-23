@@ -3,8 +3,8 @@ package console
 import (
 	"os"
 
-	"github.com/kumparan/fer/config"
-	"github.com/kumparan/fer/installer"
+	"github.com/bambangDeny/cobain/config"
+	"github.com/bambangDeny/cobain/installer"
 	"github.com/spf13/cobra"
 )
 

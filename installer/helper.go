@@ -15,7 +15,7 @@ import (
 
 	pb "github.com/cheggaaa/pb/v3"
 
-	"github.com/kumparan/fer/config"
+	"github.com/bambangDeny/cobain/config"
 
 	version "github.com/hashicorp/go-version"
 )

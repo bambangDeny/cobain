@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/kumparan/fer/installer"
+	"github.com/bambangDeny/cobain/installer"
 )
 
 // InitChangelog :nodoc:

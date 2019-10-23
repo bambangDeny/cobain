@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/kumparan/fer/generator"
+	"github.com/bambangDeny/cobain/generator"
 	"github.com/spf13/cobra"
 )
 

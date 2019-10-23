@@ -3,7 +3,7 @@ fer is not Ferdian
 
 ## INSTALL
 ```
-go get github.com/kumparan/fer
+go get github.com/bambangDeny/cobain
 ```
 
 It should be available as command now in terminal.

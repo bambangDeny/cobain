@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/kumparan/fer/console"
+	"github.com/bambangDeny/cobain/console"
 )
 
 func main() {

@@ -3,7 +3,7 @@ package console
 import (
 	"strings"
 
-	"github.com/kumparan/fer/deployment"
+	"github.com/bambangDeny/cobain/deployment"
 	"github.com/spf13/cobra"
 )
 
