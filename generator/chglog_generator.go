@@ -24,7 +24,7 @@ func InitChangelog(style, repositoryURL string) {
 	getWorkingDirectory, err := exec.Command("pwd").Output()
 	if err != nil {
 		installer.ProgressBar(1)
-		fmt.Println("failed to generate changelog")
+		fmt.Println("failed to generate changelog1")
 		fmt.Println(err)
 		os.Exit(1)
 	}
@@ -34,7 +34,7 @@ func InitChangelog(style, repositoryURL string) {
 	err = cmd.Run()
 	if err != nil {
 		installer.ProgressBar(1)
-		fmt.Println("failed to generate changelog")
+		fmt.Println("failed to generate changelog2")
 		fmt.Println(err)
 		os.Exit(1)
 	}
@@ -42,7 +42,7 @@ func InitChangelog(style, repositoryURL string) {
 	if _, err := os.Stat(".chglog/config.yml"); !os.IsNotExist(err) {
 		if err != nil {
 			installer.ProgressBar(1)
-			fmt.Println("failed to generate changelog")
+			fmt.Println("failed to generate changelog3")
 			fmt.Println(err)
 			os.Exit(1)
 		}
@@ -54,7 +54,7 @@ func InitChangelog(style, repositoryURL string) {
 	err = os.MkdirAll(".chglog", os.ModePerm)
 	if err != nil {
 		installer.ProgressBar(1)
-		fmt.Println("failed to generate changelog")
+		fmt.Println("failed to generate changelog4")
 		fmt.Println(err)
 		os.Exit(1)
 	}
@@ -62,7 +62,7 @@ func InitChangelog(style, repositoryURL string) {
 	err = ioutil.WriteFile(".chglog/config.yml", []byte(installer.CreateChangelogYAML(style, repositoryURL)), 0644)
 	if err != nil {
 		installer.ProgressBar(1)
-		fmt.Println("failed to generate changelog")
+		fmt.Println("failed to generate changelog5")
 		fmt.Println(err)
 		os.Exit(1)
 	}
@@ -70,7 +70,7 @@ func InitChangelog(style, repositoryURL string) {
 	err = ioutil.WriteFile(".chglog/CHANGELOG.tpl.md", []byte(installer.CreateChangelogMD()), 0644)
 	if err != nil {
 		installer.ProgressBar(1)
-		fmt.Println("failed to generate changelog")
+		fmt.Println("failed to generate changelog6")
 		fmt.Println(err)
 		os.Exit(1)
 	}
@@ -85,7 +85,7 @@ func CreateChangelog(version string) {
 	getWorkingDirectory, err := exec.Command("pwd").Output()
 	if err != nil {
 		installer.ProgressBar(1)
-		fmt.Println("failed to generate changelog")
+		fmt.Println("failed to generate changelog7")
 		fmt.Println(err)
 		os.Exit(1)
 	}
@@ -95,7 +95,7 @@ func CreateChangelog(version string) {
 	err = cmd.Run()
 	if err != nil {
 		installer.ProgressBar(1)
-		fmt.Println("failed to generate changelog")
+		fmt.Println("failed to generate changelog8")
 		fmt.Println(err)
 		os.Exit(1)
 	}
@@ -104,7 +104,7 @@ func CreateChangelog(version string) {
 	err = createChgLogFile.Run()
 	if err != nil {
 		installer.ProgressBar(1)
-		fmt.Println("failed to generate changelog")
+		fmt.Println("failed to generate changelog9")
 		fmt.Println(err)
 		os.Exit(1)
 	}
