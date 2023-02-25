@@ -8,5 +8,5 @@ require (
 	github.com/hashicorp/go-version v1.2.0
 	github.com/spf13/cobra v0.0.5
 	github.com/stretchr/testify v1.4.0
-	golang.org/x/sys v0.0.0-20191022100944-742c48ecaeb7 // indirect
+	golang.org/x/sys v0.1.0 // indirect
 )
